@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="project1.css">
+<title>Magic Library</title>
+</head>
+<body>
+<!--This is the body of our website -->
+<!-- Landing Page Section -->
+<div id="LandingPage">
+<!-- start Hero Section -->
+<div id="HeroSection">
+<p id="heroText">Awaken the <span id="game">Book worm</span>
+in you!!!
+</p>
+<p id="heroDescription">The shelves are all booked up!
+</p>
+<p id="ctaHelper">Looking for more interesting books! </p>
+<button id="CTA" onClick="window.location.href = 
+'https://openlibrary.org/'">'LOOK OUT'</button>
+</div>
+<!-- End of Hero Section -->
+<!-- Image section -->
+<div id="ImageSection"> </div>
+<!-- End of Image Section -->
+</div>
+<!-- end of landing page -->
+<!-- JS file is tagged at the end of HTML file -->
+<script src="scripts.js"> </script>
+</body>
+</html>
